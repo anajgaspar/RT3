@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var calculos_1 = require("./calculos");
+var somador = new calculos_1.Soma();
+var subtrador = new calculos_1.Subtracao();
+var divisor = new calculos_1.Divisao();
+var multiplicador = new calculos_1.Multiplicacao();
+console.log("Soma: ".concat(somador.calcular(2, 2)));
+console.log("Subtra\u00E7\u00E3o ".concat(subtrador.calcular(10, 5)));
+console.log("Divis\u00E3o: ".concat(divisor.calcular(2, 2)));
+console.log("Multiplica\u00E7\u00E3o: ".concat(multiplicador.calcular(10, 5)));
