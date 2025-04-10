@@ -1,4 +1,4 @@
-import { Soma, Subtracao, Divisao, Multiplicacao } from "./calculos"
+import { Soma, Subtracao, Divisao, Multiplicacao } from "./calculos.js"
 
 let somador = new Soma()
 let subtrador = new Subtracao()

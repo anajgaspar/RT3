@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Multiplicacao = exports.Divisao = exports.Subtracao = exports.Soma = void 0;
 var Soma = /** @class */ (function () {
     function Soma() {
     }
@@ -9,7 +6,7 @@ var Soma = /** @class */ (function () {
     };
     return Soma;
 }());
-exports.Soma = Soma;
+export { Soma };
 var Subtracao = /** @class */ (function () {
     function Subtracao() {
     }
@@ -18,7 +15,7 @@ var Subtracao = /** @class */ (function () {
     };
     return Subtracao;
 }());
-exports.Subtracao = Subtracao;
+export { Subtracao };
 var Divisao = /** @class */ (function () {
     function Divisao() {
     }
@@ -27,7 +24,7 @@ var Divisao = /** @class */ (function () {
     };
     return Divisao;
 }());
-exports.Divisao = Divisao;
+export { Divisao };
 var Multiplicacao = /** @class */ (function () {
     function Multiplicacao() {
     }
@@ -36,4 +33,4 @@ var Multiplicacao = /** @class */ (function () {
     };
     return Multiplicacao;
 }());
-exports.Multiplicacao = Multiplicacao;
+export { Multiplicacao };
